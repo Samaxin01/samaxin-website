@@ -1,0 +1,299 @@
+nav {
+    background-color: #040273;
+    padding: 2px;
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+   
+}
+nav li{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.homeicon img{
+    position: absolute;
+    left: 80%;
+    width: 3%;
+    bottom: 91.3%;
+    margin-top: 0%;
+    padding-top: 0%;
+    z-index: 9;
+    top: 6%;
+}
+
+.store img{
+    position: absolute;
+    left: 20%;
+    width: 3%;
+}
+
+.banner img{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0%;
+    background-color: black;
+    width: 45%;
+   
+}
+
+.welcome {
+    position: absolute;
+    left: 48%;
+    font-size: 90px;
+}
+
+.business ul{
+    position: absolute;
+    left: 60%;
+    font-size: 30px;
+    color: #040273;
+}
+
+footer {
+    background-color: #040273;
+    color: white;
+    size: 50%;
+     height: 50px;
+     text-align: center; 
+    bottom: 50%;
+}
+
+.Copyright {
+    position: absolute;
+    text-align: center;
+    left: 40%;
+}
+
+.guide {
+    font-size: 120%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span {
+    color: #040273;
+}
+
+.three-images img{
+    position: absolute;
+    width: 20%;
+    bottom: 40%;
+    display: inline-block;
+    align-content: center;
+}
+
+p:hover {
+    color: red;
+    font-size: 20%;
+   
+}
+
+p {
+    transition-duration: 9s;
+}
+
+.interview img{
+    position: absolute;
+    width: 20%;
+    bottom: 20%;
+    left: 78%;
+    margin-right:30%;
+}
+
+.online1 div img{
+    position: absolute;
+    width: 15%;
+    bottom: 120px;
+    z-index: 7;
+    top: 250%;
+}
+
+.package img{
+    position: absolute;
+    width: 20%;
+    bottom: 20%;
+    left: 40%;
+}
+.online img{
+    position: absolute;
+    width: 20%;
+    bottom: 20%;
+    margin-left: 5%;
+}
+
+.write6 div{
+    position: absolute;
+    text-align: center;
+    margin-right: 12%;
+    box-shadow: red;
+}
+
+.Best {
+    position: static;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    top: 30%;
+    
+}
+
+.write001 {
+  text-align: start;
+  margin-right: 70%;
+  color: gray;
+  line-break: auto;
+}
+
+.tron img{
+    position: absolute;
+    left: 40%;
+   top: 389%;
+   width: 30%;
+}
+
+.write001 h3 {
+    margin: 5px 0; /* Adjust the value as needed */
+    padding: 0; /* Remove padding if any */
+}
+
+/* For smooth color transition on hover */
+.Best {
+    color: blue; /* Initial color */
+    transition: color 0.5s ease; /* Transition for color change */
+}
+
+.Best:hover {
+    color: red; /* Color on hover */
+}
+
+/* For continuous color change animation */
+@keyframes colorChange {
+    0% { color: blue; }
+    50% { color: red; }
+    100% { color: green; }
+}
+
+.Best {
+    animation: colorChange 3s infinite; /* Change color every 3 seconds infinitely */
+}
+
+nav {
+    background-image: linear-gradient(to right, #ff69b4, #ffa07a, #ffff00, #00ff00, #0000ff, #8f0a1a);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav:hover {
+    animation: gradientAnimation 5s ease infinite;
+}
+
+.online1 img {
+    display: inline-block;
+    vertical-align: middle; /* Optional: to align images vertically */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Start at 0 degrees */
+    }
+    to {
+        transform: rotate(360deg); /* End at 360 degrees */
+    }
+}
+
+footer{
+    background-image: linear-gradient(to right, #ff69b4, #ffa07a, #ffff00, #00ff00, #0000ff, #8f0a1a);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+.speech {
+    color: grey;
+   
+    text-align: start;
+  margin-right: 60%;
+  color: gray;
+  line-break: auto;
+}
+
+.three h4{
+    position: absolute;
+    top: 275%;
+    z-index: 7;
+}
+
+.Text1 h4{
+    position: absolute;
+    margin-left: 22%;
+    left: 20%;
+}
+
+.Text2 h4{
+    position: absolute;
+    margin-left: 77%;
+
+}
+
+.Text3 h4{
+    position: absolute;
+    margin-left: 2%;
+}
+
+.smiling-man img{
+    border-radius: 10%;
+}
+
+.refer-button {
+    position: absolute;
+}
+
+.about {
+    position: relative;
+    text-align: center;
+    
+}
+
+.Allone {
+    position: relative;
+    text-align: center;
+    color: gray;
+}
+
+.dashboard a{
+  
+    text-decoration: none;
+    color: green;
+}
+
+.dashboard button a{
+    position: relative;
+    left: 1000%;
+    background-color: gray;
+    width: 20%;
+    height: 30%;
+}

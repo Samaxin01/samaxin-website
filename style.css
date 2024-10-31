@@ -1,0 +1,161 @@
+body {
+  max-width: 100%;  
+  padding: 0%;
+  margin: 1%;
+ 
+}
+
+.welcome {
+    font-size: 15px;
+    color: #040273;
+    background-color: rgb(255, 255, 255);
+}
+
+.CEO img{
+    position: relative;
+   height: 500px;
+   left: 60%;
+}
+
+.write1 {
+  margin-right: 52%;
+  position: absolute;
+   
+}
+
+.businesschart img{
+  position: absolute;
+  height: 500px;
+  top: 80%;
+  z-index: 7;
+}
+
+.signup {
+  position: absolute;
+  left: 80%;
+  bottom: 91%;
+}
+
+.signup button {
+  background-color: #040273; /* Change the background color to blue */
+  color: #ffffff; /* Change the text color to white */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+ 
+}
+
+.signup button:hover {
+  background-color: #040273; /* Change the background color on hover to a darker blue */
+}
+
+.no-underline {
+  text-decoration: none;
+  color: white;
+}
+
+.animate-from-left {
+  animation: animate-from-left 2s ease-in-out;
+}
+
+.animate-from-left {
+  animation: animate-from-left 2s;
+}
+
+@keyframes animate-from-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+.animate-from {
+  animation: animate-from 2s;
+}
+
+@keyframes animate-from {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.write2 {
+  margin-left: 52%;
+  position: absolute;
+  top: 95%;
+}
+
+.button2 button{
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  background-color: #040273;
+  text-decoration: none;
+  border: none;
+  padding: 10px 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.register {
+  color: white;
+  text-decoration: none;
+}
+
+.write3 {
+  position: absolute;
+  top: 200%;
+  padding-right: 73%;
+  left: 9% ;
+}
+
+.facebook img{
+  position: absolute;
+  height: 99px;
+  top: 185%;
+  left: 12%;
+}
+
+.image3 img{
+  position: absolute;
+  height: 99px;
+  top: 183%;
+  left: 50%;
+  bottom: 12%;
+}
+
+.write4 {
+  position: absolute;
+  top: 200%;
+  padding-right: 30%;
+  left: 50%;
+}
+
+.image5 img{
+  position: absolute;
+  height: 99px;
+  top: 182%;
+  left: 85%;
+  bottom: 12%;
+
+}
+
+.write5 {
+  position: absolute;
+  top: 200%;
+  padding-right: 0%;
+  left: 85%;
+}
+
+.video {
+  position: relative;
+  z-index: 7;
+}
+

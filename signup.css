@@ -1,0 +1,76 @@
+body {
+    background-color: #9796ff;
+  
+    margin-top: 10%;
+    margin-left: 45%;
+   
+}
+
+.signup form{
+    color: rgb(255, 255, 255);
+    background-color: #040273;
+    width: 30%;
+   position: absolute;
+   left: 37%;
+   text-align: center;
+   margin-right: 50%;
+   height: 270px;
+   top: 39%;
+   cursor: pointer;
+}
+
+.signup1 {
+    color: #ffffff;
+    background-color: #040273;
+    margin: 50px auto 50px auto;
+    width: 30%;
+    position: absolute;
+    right: 30%;
+    right: 33%;
+    text-align: center;
+    bottom: 70%;
+    top: 20%;
+    background-color: #ffffff;
+}
+
+.banner img{
+    position: absolute;
+    width: auto;
+    height: 40%;
+    bottom: 64%;
+}
+
+.are {
+    position: absolute;
+    right: 100%;
+   bottom: 75%;
+   left: 1%;
+   font-size: 190%;
+   top: 20%;
+   right: 20%;
+   margin-right: 55%;
+  color: #ffffff;
+   
+}
+
+.question {
+    position: absolute;
+    bottom: 80%;
+    right: 80.7%;
+    top: 15%;
+    font-weight: 500;
+    font-size: 200%;
+    color: #000000;
+    opacity: 100%;
+}
+
+.google {
+    position: relative;
+    left: 5%;
+    width: 200px;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+
+

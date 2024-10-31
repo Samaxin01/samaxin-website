@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.online-store {
+   
+    color: #ffffff;
+    background-color: #040273;
+    text-align: center;
+   
+}
+
+nav {
+    background-image: linear-gradient(to right, #ff69b4, #ffa07a, #ffff00, #00ff00, #0000ff, #8f0a1a);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav:hover {
+    animation: gradientAnimation 5s ease infinite;
+}
+
+.jbl img{
+    position: absolute;
+    border-radius: 80%;
+}
+
+.homeicon img{
+    position: absolute;
+    left: 80%;
+    width: 3%;
+    bottom: 91.3%;
+    margin-top: 0%;
+    padding-top: 0%;
+    z-index: 9;
+    top: 6%;
+}
+
+nav {
+    background-color: #040273;
+    padding: 2px;
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+   
+}
+nav li{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.store img{
+    position: absolute;
+    height: 20%;
+    display: flex;
+    gap: 200%;
+    border-radius: 20%;
+    
+}
+
+.store ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;           /* Remove default padding */
+}
+
+.store li {
+    display: inline-block; /* Align images horizontally */
+    margin: 100px;        /* Set distance between images */
+    background-color: #4CAF50;
+}
+
+.buy-button :hover{
+    color: green;
+    background-color: green;
+}
+
+
+.buttons li{
+    position: absolute;
+    left: 8.3%;
+    top: 50%;
+}
+
+.buttons2 li{
+    position: absolute;
+    left: 8.3%;
+    top: 0;
+}
+
+.buy-button{
+    position: absolute;
+    color: white;
+    background-color: green;
+    z-index: 6;
+}
+
+.store img {
+  transform: scale(0.5);
+  transition: transform 0.5s;
+}
+
+.store img:hover {
+  transform: scale(1);
+}
